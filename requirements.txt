@@ -1,0 +1,7 @@
+langgraph
+gradio
+langchain
+langchain-community
+ollama
+langchain-groq
+groq
