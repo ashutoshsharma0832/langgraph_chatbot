@@ -7,7 +7,7 @@ from datetime import datetime
 
 # ----------------------------- CONFIG -----------------------------
 # API
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "...")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Sessions folder
@@ -171,3 +171,4 @@ with gr.Blocks(title="Groq + Gradio Chatbot") as demo:
 
 # ----------------------------- LAUNCH -----------------------------
 demo.launch(share=True)
+
